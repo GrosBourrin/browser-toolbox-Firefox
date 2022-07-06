@@ -1,4 +1,4 @@
-# browser-toolbox-Firefox
+# **Browser-toolbox-Firefox**
 
 In your profile folder, go to chrome_debugger_profile folder, then create a chrome folder (in lowercase) then put this file inside it.
 reload Firefox.
