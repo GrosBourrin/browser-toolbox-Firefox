@@ -182,7 +182,7 @@
 	--console-repeat-bubble-background: var(--blue-60) !important;
 	--error-color: var(--red-20) !important;
 	--console-output-color: white !important;
-	--theme-code-font-size: 11px !important;
+	--theme-code-font-size: 12px !important;
 
 
 }
@@ -196,6 +196,7 @@
 	font-family: Fira Sans !important;
 }
 
+/* font code */
 .devtools-monospace * {
 	font-family: Fira Code !important;
 }
@@ -237,17 +238,7 @@ li.menuitem {
 
 :root[platform="win"] .ruleview-enableproperty,
 :root[platform="linux"] .ruleview-enableproperty {
-	appearance: none;
-	/*left: -27px;
-	box-sizing: content-box;
-	margin-inline-start: 0;
-	margin-inline-end: 10px;
-	display: inline-block;
-	width: 14px;
-	height: 14px;
-	border: 0;
-	padding: 0;
-	outline: none;*/
+	appearance: none;	
 	background: url("chrome://devtools/skin/images/checkbox.svg") center no-repeat content-box !important;
 	filter: grayscale(100%) !important;
 	-moz-context-properties: fill, stroke;
