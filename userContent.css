@@ -116,19 +116,19 @@
 	/* Colors used in Graphs, like performance tools. Mostly similar to some "highlight-*" colors. */
 	--theme-graphs-green: #70bf53 !important;
 	--theme-graphs-blue: #46afe3 !important;
-	--theme-graphs-bluegrey: #5e88b0 !important;
-	--theme-graphs-purple: #df80ff !important;
-	--theme-graphs-yellow: #d99b28 !important;
-	--theme-graphs-orange: #d96629 !important;
+	--theme-graphs-bluegrey: slateblue important;
+	--theme-graphs-purple: purple !important;
+	--theme-graphs-yellow: yellow !important;
+	--theme-graphs-orange: orange !important;
 	--theme-graphs-red: #eb5368 !important;
-	--theme-graphs-grey: #757873 !important;
+	--theme-graphs-grey: #777777 !important;
 	--theme-graphs-full-red: #f00 !important;
 	--theme-graphs-full-blue: #00f !important;
 
 	/* Common popup styles(used by HTMLTooltip and autocomplete) */
 	--theme-popup-background: #1e1d2d !important;
-	--theme-popup-color: rgb(249, 249, 250) !important;
-	--theme-popup-border-color: #27272b !important;
+	--theme-popup-color: white !important;
+	--theme-popup-border-color: #1e90ff !important;
 	--theme-popup-dimmed: rgba(249, 249, 250, 0.1) !important;
 
 	/* Styling for devtool buttons */
@@ -196,7 +196,6 @@
 	font-family: Fira Sans !important;
 }
 
-/* font code */
 .devtools-monospace * {
 	font-family: Fira Code !important;
 }
@@ -238,7 +237,17 @@ li.menuitem {
 
 :root[platform="win"] .ruleview-enableproperty,
 :root[platform="linux"] .ruleview-enableproperty {
-	appearance: none;	
+	appearance: none;
+	/*left: -27px;
+	box-sizing: content-box;
+	margin-inline-start: 0;
+	margin-inline-end: 10px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 0;
+	padding: 0;
+	outline: none;*/
 	background: url("chrome://devtools/skin/images/checkbox.svg") center no-repeat content-box !important;
 	filter: grayscale(100%) !important;
 	-moz-context-properties: fill, stroke;
